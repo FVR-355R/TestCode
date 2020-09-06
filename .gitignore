@@ -1,0 +1,8 @@
+.DS_Store
+*.o
+*.obj
+*.bin
+*.elf
+bin/
+.vscode/
+compile_commands.json
