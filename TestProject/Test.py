@@ -50,7 +50,7 @@ def autonomous():
 #  Get more of the feeder lower
     #LiftStacker(0.1,true);
 
-    feeder_action(55,True);
+    feeder_action(55,True)
 
 
     # These were a test -- don't use!
@@ -271,6 +271,11 @@ def user_control():
 # create competition instance
 comp = Competition(user_control, autonomous)
 pre_autonomous()
+
+# testing to see what happens with the json file format if I 
+# make something that has a \n\n\n\n in it
+
+#print ("this \n is \n a \n set \n newlines \n")
 
 
 def lift_stacker(n_rotations=0, direction=True):
